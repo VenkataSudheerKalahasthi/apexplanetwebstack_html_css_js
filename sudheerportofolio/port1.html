@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venkata Sudheer Kalahasthi Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Portfolio</a>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="bars-animation">
+        <div class="bar" style="--i: 6"></div>
+        <div class="bar" style="--i: 5"></div>
+        <div class="bar" style="--i: 4"></div>
+        <div class="bar" style="--i: 3"></div>
+        <div class="bar" style="--i: 2"></div>
+        <div class="bar" style="--i: 1"></div>
+      </div>
+
+      <div class="home-content">
+        <div class="home-info">
+          <h1>Venkata Sudheer Kalahasthi</h1>
+          <h2>
+            I'm a
+            <span style="--i: 2" data-text="Java Developer">Java Developer</span>
+            <span style="--i: 1" data-text="Frontend Developer">Frontend Developer</span>
+          </h2>
+          <p>
+            Experienced Java developer with expertise in developing and deploying enterprise applications. 
+            Seeking a position where I can leverage my skills in object-oriented programming and 
+            software development to improve system performance and user experience.
+          </p>
+          <div class="btn-sci">
+            <a href="#" class="btn">Download CV</a>
+            <div class="sci">
+              <a href="https://github.com/VenkataSudheerKalahasthi" target="_blank"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/kalahasthi-venkata-sudheer-39a022322" target="_blank"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/venkatasudheer.kalahasthi/" target="_blank"><i class="bx bxl-instagram"></i></a>
+              <a href="https://twitter.com/@K_sudheer_045" target="_blank"><i class="bx bxl-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="sudheer.jpg" alt="Venkata Sudheer Kalahasthi">
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-info">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Java Developer and Frontend Developer with
+          extensive experience in designing and building scalable web
+          applications. With a strong background in object-oriented
+          programming and modern front-end technologies, I strive to create
+          efficient and user-friendly solutions.
+        </p>
+        <p>
+          In addition to development, I have a keen interest in
+          problem-solving and optimizing application performance. My goal is
+          to contribute to innovative projects that make a difference.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-info">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project-box">
+            <h3>Loan Eligibility Checker</h3>
+            <p>
+              A machine learning model that predicts loan eligibility based on user input.
+            </p>
+          </div>
+          <div class="project-box">
+            <h3>AI Chatbot</h3>
+            <p>
+              A multilingual chatbot built using Rasa for financial advisory.
+            </p>
+          </div>
+          <div class="project-box">
+            <h3>Portfolio Website</h3>
+            <p>
+              A fully responsive and animated personal portfolio website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <div class="contact-item">
+          <strong>Name:</strong> Venkata Sudheer Kalahasthi
+        </div>
+        <div class="contact-item">
+          <strong>Mobile Number:</strong> 9398005772
+        </div>
+        <div class="contact-item">
+          <strong>Email:</strong>
+          <a href="mailto:venkatasudheerkalahasthi@gmail.com">venkatasudheerkalahasthi@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Address:</strong> Jammulapalem (V), Tangutur (M), Prakasam (D)
+        </div>
+        <div class="contact-item">
+          <strong>Qualification:</strong> B.Tech in Computer Science and Engineering
+        </div>
+      </div>
+    </section>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
